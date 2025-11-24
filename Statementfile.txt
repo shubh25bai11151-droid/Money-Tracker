@@ -1,0 +1,35 @@
+Problem Statement-
+
+Many individuals and students struggle to maintain financial awareness and budget discipline because they lack a simple, accessible way to record, review, and calculate their daily and monthly expenditures. The inability to easily track where money is being spent can lead to unexpected shortages, overspending, and difficulty in achieving financial goals. The problem is the need for a basic, reliable, and straightforward digital tool to manage and summarize personal expenses.
+
+Scope of the Project-
+
+The scope of this initial Expense Tracker project is to provide a command-line interface (CLI) application capable of performing fundamental expense management operations.
+
+1. In Scope:
+⦁	Recording Expenses: Capturing and storing expense details, including the date, a description, and the monetary amount.
+⦁	Viewing Expenses: Displaying a numbered list of all recorded expenses.
+⦁	Removing Expenses: Deleting a specific expense entry based on its index (number).
+⦁	Calculating Totals: Summing up all recorded expense amounts to provide a total expenditure.
+⦁	User Interface: A simple, interactive command-line menu for navigation.
+2. Out of Scope (For the Current Version):
+
+⦁	Data Persistence: Saving/loading expenses to/from a file (e.g., CSV, JSON) so they persist after the program closes.
+⦁	Categorization: Grouping expenses (e.g., Food, Transport, Study).
+⦁	Filtering/Searching: Searching expenses by date, description, or amount.
+⦁	GUI/Web Interface: Any graphical or web-based interface.
+⦁	Reporting/Visualization: Generating reports or charts.
+Target Users-
+
+The primary target users are individuals who need a basic and easy-to-use tool for personal finance tracking.
+
+⦁	Students/Entry-Level Workers: Who are managing limited budgets and need to quickly see where their money is going.
+⦁	Individuals New to Budgeting: Who require a simple, non-complex tool to begin their financial tracking journey.
+⦁	Anyone Requiring Basic Expense Logging: Users who primarily interact with command-line applications and only need the core functions of adding, viewing, and summing expenses.
+High-Level Features-
+
+1.	Add Expense: Allows the user to input the date, a brief description, and the amount for a new expense and store it in the tracker.
+2.	Remove Expense: Allows the user to select an expense by its index number (from the view list) and permanently delete it.
+3.	View Expenses: Displays a complete, numbered list of all currently tracked expenses with their date, description, and amount.
+4.	Total Expenses: Calculates and displays the cumulative sum of all recorded expense amounts.
+5.	Interactive Menu: Provides a simple, numbered command-line menu for easy naviga
